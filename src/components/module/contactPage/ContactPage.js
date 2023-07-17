@@ -12,11 +12,11 @@ const ContactPage = () => {
 
 				<div className='section-center page-info'>
 					<p>
-						For business inquiries and collaborations please Direct message me
-						via email or any of my social websites. I am looking forward to
+						For business inquiries and collaborations please reach out to me
+						via email or on any of my social websites. I am looking forward to
 						hearing from you!
 						<a href='mailto:gkojunior@gmail.com'>
-							<button>Contact Me</button>
+							<button>Email Me</button>
 						</a>
 					</p>
 				</div>
