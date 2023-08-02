@@ -1,9 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
-import aboutImg from '../../../assets/photo.jpeg'
-import Main from '../mainPage/Main'
-import Family from '../reviews/Family'
-
+import aboutImg from '../assets/photo.jpeg'
+import Family from './Family'
+import Title from './Title'
 
 const AboutPage = () => {
 	return (
@@ -11,10 +10,11 @@ const AboutPage = () => {
 			<Wrapper className='page section section-center'>
 				<img src={aboutImg} alt='lady in beads' />
 				<article>
-					<div className='title'>
-						<h2>George Owusu</h2>
+					<div>
+						<Title title='about' subTitle='me' />
 						<div className='underline'></div>
 					</div>
+
 					<p>
 						Hi! I am George Owusu, a Full-Stack Software Developer. I am an
 						aspiring web/mobile developer seeking an entry-level engineering
@@ -25,9 +25,7 @@ const AboutPage = () => {
 					</p>
 				</article>
 			</Wrapper>
-			<Main />
 			<Family />
-
 		</main>
 	)
 }

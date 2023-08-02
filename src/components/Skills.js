@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import Title from './Title'
 
 const Skills = () => {
 	return (
@@ -7,7 +8,7 @@ const Skills = () => {
 			<div>
 				<section className='section skills'>
 					<div className='section-title'>
-						<h2>Skills</h2>
+					<Title title='my' subTitle='skills' />
 						<div className='underline'></div>
 					</div>
 

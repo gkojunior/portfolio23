@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import video from '../../../assets/video/Vid.mp4'
+import video from '../assets/video/Vid.mp4'
 const Connect = () => {
 	return (
 		<Wrapper>

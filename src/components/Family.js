@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { FiChevronRight, FiChevronLeft } from 'react-icons/fi'
 import { FaQuoteRight } from 'react-icons/fa'
-import { people } from '../utils/data'
+import { people } from './utils/data'
 import styled from 'styled-components'
 
 function Family() {
