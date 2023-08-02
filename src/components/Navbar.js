@@ -3,7 +3,10 @@ import styled from 'styled-components'
 // import logo1 from '../../../assets/logo1.png'
 import { FaTimes } from 'react-icons/fa'
 import { HiMenuAlt3 } from 'react-icons/hi'
-import DarkMode from '../DarkMode/DarkMode'
+import DarkMode from './DarkMode/DarkMode'
+// import { socialLinks } from '../utils/data'
+import { AiFillFacebook, AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
+import { BsInstagram } from 'react-icons/bs'
 
 const Navbar = () => {
 	const [toggle, setToggle] = useState(false)
@@ -14,6 +17,21 @@ const Navbar = () => {
 		<NavContainer>
 			<nav className={toggle ? 'navbar expanded' : 'navbar'}>
 				<h2 className='logo'>George Owusu Jr</h2>
+				<nav className='link'>
+					<a className='link' href='/#'>
+						<AiFillLinkedin />
+					</a>
+
+					<a className='link' href='/#'>
+						<AiFillGithub />
+					</a>
+					<a className='link' href='/#'>
+						<AiFillFacebook />
+					</a>
+					<a className='link' href='/#'>
+						<BsInstagram />
+					</a>
+				</nav>
 
 				<ul className='links'>
 					<li>
@@ -76,16 +94,24 @@ const NavContainer = styled.nav`
 		font-size: 14px;
 		font-weight: 600;
 	}
-	.navbar .links li a{
-		text-decoration:none;
+	.navbar .links li a {
+		text-decoration: none;
 	}
 
 	.navbar .toogle {
 		display: none;
 	}
 	a {
-		color: rgb(0, 0, 0);
-		font-size: 1.1rem;
+		padding: 0 0.5em 0 0.5em;
+		text-decoration: none;
+		list-style: none;
+		font-size: 1.2rem;
+		color: black;
+
+	}
+	.nav-icons {
+		display: flex;
+		color: green;
 	}
 
 	@media (max-width: 768px) {
@@ -149,7 +175,7 @@ const NavContainer = styled.nav`
 		.navbar.expanded .links li a {
 			color: rgb(0, 0, 0);
 		}
-		.darkmode{
+		.darkmode {
 			margin-left: 10.5rem;
 		}
 	}

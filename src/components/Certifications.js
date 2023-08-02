@@ -1,5 +1,5 @@
 import React from 'react'
-import { certifications } from '../utils/constants'
+import { certifications } from './utils/constants'
 
 import styled from 'styled-components'
 
