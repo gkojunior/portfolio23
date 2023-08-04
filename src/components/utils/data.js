@@ -60,7 +60,9 @@ export const project = [
 		date: 'october 1th, 2020',
 		title: 'Nursery Finds',
 		info: 'This E-Commerce app allows user to create a post to sell their baby products. I was apart of the backend tea',
-		language: 'React.JS & Node.JS',
+		language: 'React.JS & Node.JS', 
+		url: 'https://nurseryfinds-2zrj.onrender.com/',
+
 	},
 	{
 		id: 2,
@@ -69,7 +71,7 @@ export const project = [
 		title: 'Family Task',
 		info: 'Family oriented to-do application using Node.js, HTML, CSS, and JavaScript. I created this app during the Node coarse',
 		language: 'Node.JS',
-
+		url: 'https://family-tasks-list-1.onrender.com',
 	},
 	{
 		id: 3,
@@ -78,6 +80,7 @@ export const project = [
 		title: 'Hacker Stories',
 		info: 'This is the first React App I created with Code the Dream following the Road to React Hand book.It was amazing learning React',
 		language: 'React.JS',
+		url: 'https://github.com/gkojunior/hacker-stories',
 
 	},
 	{
@@ -87,6 +90,7 @@ export const project = [
 		title: 'Volunteer App',
 		info: '(React/Node.JS) This application allows user to create a job post for anyone looking to volunteer for a quick job.',
 		language: 'React.JS & Node.JS',
+		url: 'https://github.com/gkojunior/food-order-app',
 	},
 	{
 		id: 5,
@@ -95,41 +99,19 @@ export const project = [
 		title: 'Vacation Blog',
 		info: 'Check out all the places I have been!',
 		language: 'React.JS',
+		url: "https://vacation-blog.netlify.app/"
+	},
+	{
+		id: 6,
+		image: Nursery,
+		date: 'october 1th, 2020',
+		title: 'Food Order',
+		info: 'Different type of Ghanian dishes',
+		language: 'React.JS',
+		url: "https://vacation-blog.netlify.app/"
 	},
 ]
 
-export const projects = [
-	{
-		id: 1,
-		url: '',
-		images: Nursery,
-		title: 'Nursery Finds',
-		description:
-			'(Node.JS/React) This E-Commerce app allows user to create a post to sell their baby products. I was apart of the backend team',
-	},
-	{
-		id: 2,
-		url: 'https://family-tasks-list-1.onrender.com',
-		images: FamilyApp,
-		title: 'Family Task',
-		description:
-			'(Node.JS) Family oriented to-do application using Node.js, HTML, CSS, and JavaScript. I created this app during the Node coarse',
-	},
-	{
-		id: 4,
-		url: 'https://github.com/gkojunior/hacker-stories',
-		images: HackerStories,
-		title: 'Hacker Stories',
-		description:
-			'(React) This is the first React App I created with Code the Dream following the Road to React Hand book.It was amazing learning React',
-	},
-	{
-		id: 3,
-		url: 'https://github.com/gkojunior/food-order-app',
-		images: Volunteer,
-		title: 'Volunteer App',
-		description:
-			'(React/Node.JS) This application allows user to create a job post for anyone looking to volunteer for a quick job.',
-	},
-]
+
+
 
