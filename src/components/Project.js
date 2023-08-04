@@ -1,8 +1,8 @@
-const Project = ({ image, title, info, language, date }) => {
+const Project = ({ image, title, info, language, date, url }) => {
   return (
     <article className='project-card'>
       <div className='project-img-container'>
-        <img src={image} className='project-img' alt={title} />
+        <a href={url}><img src={image} className='project-img' alt={title} /></a>
         <p className='project-date'>{date}</p>
 
       </div>
