@@ -7,10 +7,7 @@ const Main = () => {
 		<Wrapper className='section-center'>
 			<article className='content'>
 				<p>
-					I am an aspiring web/mobile developer seeking an junior level
-					engineering position that leverages my educational background,
-					knowledge, skill sets, and passion for software development to add
-					value to a business and contribute to organizational operations.
+					I Love traveling and spending time with my family!
 				</p>
 			</article>
 
@@ -64,7 +61,7 @@ const Wrapper = styled.section`
 	}
 	.underline {
 		margin-left: 0;
-		margin-top: 10px
+		margin-top: 10px;
 		color: black;
 	  }
 
